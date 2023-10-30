@@ -1,4 +1,4 @@
-package ro.uvt.info.designpatternslab2023.lab2.classes;
+package ro.uvt.info.designpatternslab2023.classes;
 
 public class Author {
     private String name;
