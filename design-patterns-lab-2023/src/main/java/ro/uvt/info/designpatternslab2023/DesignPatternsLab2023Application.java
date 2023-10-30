@@ -1,10 +1,10 @@
-package ro.uvt.info.designpatternslab2023.lab2;
+package ro.uvt.info.designpatternslab2023;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import ro.uvt.info.designpatternslab2023.lab2.classes.Author;
-import ro.uvt.info.designpatternslab2023.lab2.classes.Book;
-import ro.uvt.info.designpatternslab2023.lab2.classes.Chapter;
-import ro.uvt.info.designpatternslab2023.lab2.classes.SubChapter;
+import ro.uvt.info.designpatternslab2023.classes.Author;
+import ro.uvt.info.designpatternslab2023.classes.Book;
+import ro.uvt.info.designpatternslab2023.classes.Chapter;
+import ro.uvt.info.designpatternslab2023.classes.SubChapter;
 
 @SpringBootApplication
 public class DesignPatternsLab2023Application {
