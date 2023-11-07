@@ -1,6 +1,6 @@
 package ro.uvt.info.designpatternslab2023.classes;
 
-class Image extends Element {   // modificata
+public class Image implements Element {
     private String imageName;
 
     public Image(String imageName) {
@@ -10,6 +10,21 @@ class Image extends Element {   // modificata
     @Override
     public void print() {
         System.out.println("Image: " + imageName);
+    }
+
+    @Override
+    public void add(Element e) {
+        this.add(e);
+    }
+
+    @Override
+    public void remove(Element e) {
+        this.remove(e);
+    }
+
+    @Override
+    public Element get(int index) {
+        return this.get(index);
     }
 }
 
